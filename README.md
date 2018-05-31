@@ -1,8 +1,8 @@
 # terrabio
 
-##Ceci est un exercice dans le cadre de ma formation Becode (de mai à novembre 2018)
+## Ceci est un exercice fait dans le cadre de ma formation Becode (de mai à novembre 2018)
 
-###Pour cet exercice, il m'a été demandé de refaire le site de l'entreprise terrabio que vous trouverez à l'adresse suivante : http://terrabio.be/ 
+### Pour cet exercice, il m'a été demandé de refaire le site de l'entreprise terrabio que vous trouverez à l'adresse suivante : http://terrabio.be/ 
 
 Les technologies utilisées dans cet exercice sont :
 - HTML
