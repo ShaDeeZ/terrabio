@@ -1,0 +1,191 @@
+#header_navbar {
+	width:100%;
+    height:40px;
+    background-color:rgba(74,133,204,1);
+    position: fixed;
+    z-index: 2;
+}
+
+nav{display: flex;
+    align-items: flex-end;}
+
+#ul_menu {
+	width:100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.li_menu {
+	display: inline-block;
+    list-style-type: none;
+   color:aliceblue;
+    margin:0px 2%;
+    font-size:12px;
+}
+
+#img_acceuil {
+	width:100%;
+    height:300px;
+    margin-top:110px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px #DFDFDF;
+    
+}
+
+#all_cartes_concept {
+	margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_carte{width:35%;
+            height:auto;
+            margin-top:6px;
+            margin-left:6px;
+            
+            
+}
+
+.card{margin:0px 1%;}
+
+
+#all_horraire{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+     border:1px solid #DFDFDF;
+     box-shadow: 5px 5px #DCDCDC;
+    padding:20px 2%;
+}
+
+.h3_contenu {
+	text-align: center;
+    margin-top:90px;
+}
+
+.td_horraire{
+    text-align: center;
+    border:1px solid #DFDFDF;
+    width:200px;
+    height:50px;
+    
+}
+
+#carte_google {
+	
+    margin-left:5%;
+    width:90%;
+}
+
+#frame_carte_goole {
+	width:100%;
+    height:auto;
+}
+
+#all_accessibilite{display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    border:1px solid #DFDFDF;
+                    margin-top:20px;
+                    box-shadow: 5px 5px #DCDCDC;
+                    }
+
+.info_transport {
+	text-align: center;
+    margin:3%;
+}
+
+#all_info_transport{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+margin: 20px 15%;   
+                    }
+
+h4{font-size:18px;}
+
+#all_visite{display:flex;
+            flex-direction: column;
+                padding:1% 3%;
+            border:1px solid #DFDFDF;
+            box-shadow: 5px 5px #DCDCDC;
+            justify-content: center;
+            align-items: center;
+            margin-left:5%;
+           }
+
+#info_visite {
+	width:90%;
+}
+
+#visite_guide_google {
+	height:340px;
+    width:90%;
+   
+}
+
+
+
+
+.map-wrap {
+	position:relative; 
+    width:90%;
+}
+	
+.overlay {
+	width:100%;
+	min-height:500px; 
+	position:absolute; 
+	top:0;
+}
+
+
+#contenu_contact {
+    width:100vw;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#input_mail {
+	width:60%;
+    height:30px;
+  
+  
+}
+
+#textarea_contact {
+	width:60%;
+    height:230px;
+    border:0.5px solid grey;
+    color:grey;
+    text-align: left;
+   font-size:13px;
+    margin-top:15px;
+  
+}
+
+#button_envoyer {
+	width:60%;
+    margin-top:15px;
+    border:1px solid #DFDFDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{width:100%;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(74,133,204,1);
+        margin-top:60px;
+        border:1px solid grey;}
+
+

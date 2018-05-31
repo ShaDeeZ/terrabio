@@ -1,0 +1,169 @@
+<html>
+    <head>    
+        <meta charset="utf-8" />
+        <title> Terrabio </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+         <link rel="stylesheet" type="text/css" href="terrabio.css" />
+    </head>
+    <body>
+        <div id="div_all_body">
+            <header id="header_navbar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      <a class="navbar-brand" href="#">Terrabio </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-item nav-link active" href="#header_navbar"> Acceuil <span class="sr-only">(current)</span></a>
+                          <a class="nav-item nav-link" href="#img_acceuil">Concept</a>
+                          <a class="nav-item nav-link" href="#ancre_horraire">horaire</a>
+                          <a class="nav-item nav-link" href="#ancre_accessibilite">Accessibilité</a>
+                          <a class="nav-item nav-link" href="#all_visite">Visite</a>
+                          <a class="nav-item nav-link" href="#input_mail">Contact</a>
+                        </div>
+                      </div>
+                </nav>
+            </header>
+            
+            <!-- CONTENU ACCEUIL -->
+            <div id="div_img_acceuil">
+                <img src="TERRABIO_ACCEUIL.png" id="img_acceuil"/>
+            </div>
+            
+            <!-- CONTENU CONCEPT -->
+<h3 class="h3_contenu">LE CONCEPT</h3>     
+<div id="all_cartes_concept"> 
+     
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top img_carte" src="bio.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">BIO</h5>
+        <p class="card-text">Tous nos produits sont certifiés par les labels bio. Vous ne trouverez que du bio dans le marché. Nous sommes très strictes à ce sujet, pour plus d'informations sur les labels bio, clickez sur le bouton en dessous.</p>
+        <a href="http://bioinfo.be/" class="btn btn-primary">TOUS SUR LE BIO</a>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top img_carte" src="pictoProximite.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">PROXIMITE</h5>
+        <p class="card-text">Nous travaillons principalement avec des producteurs locaux. Nous pensons qu'il est important de proviliégié le commerce de proximité afin de garder une économie stable au seins du pays.</p>
+        <a href="http://www.sdi.be/presse/le-petit-commerce-de-proximite-la-recherche-de-son-second-souffle" class="btn btn-primary">TOUS SUR LA PROXIMITE</a>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top img_carte" src="courses.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">DIVERSITE</h5>
+        <p class="card-text">Il est essentiel pour nous que vous trouvez tous les produits dont vosu avez besoin. Cela passe par une grande diversité des produits afin que vosu trouvez toujours ce dont vous avez besoin.</p>
+        <a href="http://bioinfo.be/" class="btn btn-primary">TOUS NOS PRODUITS</a>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top img_carte" src="chaise_roulante.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">ACCESSIBILITE</h5>
+        <p class="card-text">Le marché est accessible à tous et à toutes. La proximité des transoprts en commun permet vous permet d'y accéder aisement avec tous types de transports. Clickez ici pour les infos relatives au transoprt</p>
+        <a href="http://bioinfo.be/" class="btn btn-primary" id="ancre_horraire">TOUS SUR L'ACCESSIBILITE</a>
+      </div>
+    </div>
+    
+</div>
+           
+        <!-- CONTENU HORRAIRE -->
+          
+     <h3 class="h3_contenu" id="h3_horraire">HORAIRE</h3>
+     <div id="all_horraire">
+         <table id="ancre_accessibilite">
+             <tr>
+                 <td class="td_horraire td_title">
+                    lundi au vendredi 
+                 </td>
+                 <td class="td_horraire td_title">
+                    samedi & dimanche 
+                 </td>
+             </tr>
+             <tr>
+                 <td class="td_horraire">
+                    11h30 à 18h
+                 </td>
+                 <td class="td_horraire">
+                    10h à 16h
+                 </td>
+             </tr>
+         </table>
+         
+     </div>
+     
+      
+     
+     <!-- CONTENU ACCESSIBILITE -->
+     
+     <h3 class="h3_contenu" id="h3_accessibilite">ACCESSIBILITE</h3>
+     <div id="all_accessibilite">
+        <div id="carte_google">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.5299735510007!2d4.3444477148996485!3d50.83986957953099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47af3af2869%3A0xa043aaa43d9d0d6c!2sRue+des+Tanneurs+60%2C+1000+Bruxelles!5e0!3m2!1sfr!2sbe!4v1527760084813" frameborder="0" allowfullscreen id="frame_carte_goole"></iframe>
+          </div>
+          <div id="all_info_transport">
+             <div class="info_transport">
+              <h4>BUS</h4>
+              <p class="p_info_transport">27, 48 arrêt Chapelle ou Jeu de Balle</p>
+             </div> 
+             <div class="info_transport">
+              <h4>TRAM</h4>
+              <p class="p_info_transport">52, 55, 56, 81 arrêt Annessens ou Lemonier</p>
+             </div> 
+              <div class="info_transport">
+              <h4>METRO</h4>
+              <p class="p_info_transport">Louise vers rue Haute</p>
+             </div>
+         </div>
+          
+     </div>
+     
+     <!-- CONTENU VISITE -->
+     
+     <h3 class="h3_contenu">VISITE</h3>
+     <div id="all_visite">
+        <div id="div_info_visite">
+        <h4>Pourquoi ?</h4>
+        <p id="info_visite"> Afin de mieux vous représentez les lieux, les produits, l'ambiance et le reste, nous vous proposons une immersion totale. Au travers de cette visite, il vous est possible de se représenter exactement ce qu'il vous attend une fois sur place.</p>
+         </div>
+         
+         
+         
+    <div class="map-wrap">
+    <div class="overlay" onClick="style.pointerEvents='none'"></div><!-- wrap map iframe to turn off mouse scroll and turn it back on on click -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1527761199629!6m8!1m7!1sCAoSLEFGMVFpcFBUYXNrMkJEVXprY0ZRRUVOQVU4MGpYWEtjM2dEQlJsbzdGYXJK!2m2!1d50.83995486550217!2d4.346701866874241!3f52.4506735509084!4f-9.500789855864952!5f0.4000000000000002" id="visite_guide_google" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</div>
+        
+          
+        
+        
+     </div>
+     
+         <!-- CONTENU CONTACT --> 
+            <h3 class="h3_contenu">CONTACT</h3>  
+            <div id="contenu_contact">
+                <input type="email" placeholder="Votre email..." id="input_mail"> 
+                <br>
+                <textarea id="textarea_contact">Votre Message...</textarea>
+               
+                <button type="submit" id="button_envoyer"><span>ENVOYER</span></p> 
+            </div>       
+</div>
+
+<footer>
+   <p id="p_footer"> Designed by L.D.</p> 
+</footer>
